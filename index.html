@@ -46,9 +46,41 @@
           <p>
             Grow Your Painting Business: Custom Web Design / Development &
             Digital Marketing for Residential & Commercial painters – Coming
-            Soon!"
+            Soon!
           </p>
-          <!-- CTA  -->
+          <!-- CTA -->
+          <form id="contact-form" class="cta-form">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+                aria-label="Name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                aria-label="Email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+                aria-label="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="cta-button">
+              Get in Touch <i class="fas fa-envelope"></i>
+            </button>
+            <div id="form-status" class="form-status"></div>
+          </form>
         </div>
         <img src="images/painter.jpeg" alt="hero" />
       </div>
